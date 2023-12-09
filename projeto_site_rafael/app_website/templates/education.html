@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Rafael Joelson</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{% url 'home' %}">HOME</a>
+            <a href="{% url 'about' %}">SOBRE</a>
+            <a href="{% url 'education' %}">FORMAÇÃO</a>
+            <a href="{% url 'portfolio' %}">PORTIFÓLIO</a>
+            <a href="{% url 'contact' %}">CONTATO</a>
+        </nav>
+        <div class="about-header-container">
+            <h1>Rafael Joelson</h1>
+            <h4>"Não há saber mais ou saber menos: há saberes diferentes." - Paulo Freire</h4>
+        </div>
+    </header>
+    <div class="aboutme-divisor">
+        <h2>Formação</h2>
+    </div>
+    <div class="aboutme-container">
+        <section class="education">
+            <div class="aboutme-text-container">
+                <h2>Formação</h2>
+                <h4>Curso de Técnico em Informática - Instituto Federal de Educação, Ciência e Tecnologia do Sudeste de Minas Gerais, Campus São João Del-Rei.</h4>
+                <h4>(2021 - 2023)</h4>
+
+                <h3>Competências</h3>
+                <p>Algoritmos e Estrutura de Dados: C/C++</p>
+                <p>Redes de Computadores</p>
+                <p>Programação Web: HTML/CSS/JAVASCRIPT</p>
+                <p>Informática Aplicada</p>
+                <p>Eletrônica</p>
+                <p>Sistemas Operacionais: Windows/Linux</p>
+                <p>Montagem e Manutenção</p>
+                <p>Engenharia de Software</p>
+                <p>Projeto de Redes</p>
+                <p>Segurança de Redes de Computadores</p>
+                <p>Banco de Dados: SQL</p>
+                <p>Programação Orientada a Objeto: JAVA</p>
+                <p>Projeto Integrador</p>
+                <p>Governança/Empreendedorismo Digital: COBIT 5.0</p>
+
+                <h4>Nano Courses EAD - FIAP ON - Faculdade de Informática e Administração Paulista</h4>
+                <h4>(2021 - Cursando)</h4>
+
+                <h3>Competências</h3>
+                <p>Big Data & Analytics</p>
+                <p>Blockchain Advanced</p>
+                <p>Business Intelligence (BI)</p>
+                <p>Cloud Fundamentals, Administration and Solution Architect</p>
+                <p>Customer Experience Management</p>
+                <p>Cybersecurity</p>
+                <p>Design Gráfico</p>
+                <p>Design Thinking</p>
+                <p>DevOps & Agile Culture</p>
+                <p>Gestão de Infraestrutura de TI</p>
+                <p>Gestão Financeira de Empresas</p>
+                <p>Inteligência Artificial e Computacional</p>
+                <p>Leadership Communication</p>
+                <p>Linux Fundamentos</p>
+                <p>Marketing em Plataformas de Social Media</p>
+                <p>Mobile Marketing</p>
+                <p>Python</p>
+                <p>Soluções Tecnológicas Emergentes</p>
+                <p>User Experience</p>
+            </div>
+            <div class="img-container">
+                <img src="{% static 'imgs/coding.png' %}" alt="Ilustração de um programador web">
+            </div>
+        </section>
+    </div>
+    <div class="aboutme-divisor">
+        <h2>Habilidades Autodidatas</h2>
+    </div>
+    <div class="aboutme-container">
+        <section class="self-taught-skills">
+            <div class="aboutme-text-container">
+                <h3>Idiomas</h3>
+                <p>Inglês: Técnico (Aprendizado autodidata)</p>
+                <p>Espanhol: Básico (Aprendizado autodidata)</p>
+                <p>Duolingo</p>
+    
+                <h3>Ferramentas de Design</h3>
+                <p>Adobe Photoshop: Básico (Aprendizado autodidata)</p>
+                <p>Criação de artes, tile-sets e sprites para jogos</p>
+    
+                <h3>Desenvolvimento de jogos</h3>
+                <p>Game Engine Unity: C#</p>
+
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>Site desenvolvido por Rafael Joelson</p>
+    </footer>
+
+</body>
+</html>
