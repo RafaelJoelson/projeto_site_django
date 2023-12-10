@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib import messages
 from .models import Contato
 from .forms import ContatoForm
+from .decorators import requires_form_submitted
 
 def home(request):
     return render(request,'home.html')
@@ -22,6 +23,7 @@ def contact(request):
 
             contato = Contato(name=name, email=email, message=message)
             contato.save()
+            request.session['form_submitted'] = True
 
             messages.success(request, 'Mensagem enviada com sucesso!')
             return render(request, 'success.html')  # Renderiza a página success.html
@@ -30,5 +32,6 @@ def contact(request):
         form = ContatoForm()
 
     return render(request, 'contact.html', {'form': form})
+@requires_form_submitted
 def success(request):
     return render(request, 'success.html')
