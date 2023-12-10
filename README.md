@@ -36,7 +36,7 @@ Explicação sobre os principais arquivos e diretórios no seu projeto.
 1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/seu-usuario/seu-projeto.git
+    git clone https://github.com/RafaelJoelson/projeto_site_django.git
     ```
 
 2. Navegue até o diretório do projeto:
