@@ -5,43 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7491d575-89dd-4934-a64e-622dc36bc8f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projeto_site_django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projeto_site_django.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/app_website/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/app_website/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/app_website/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/app_website/decorators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/app_website/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/app_website/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/app_website/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/app_website/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/app_website/templates/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/app_website/templates/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/app_website/templates/education.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/app_website/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/app_website/templates/portfolio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/app_website/templates/success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/app_website/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/app_website/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/projeto_site_rafael/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/projeto_site_rafael/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/projeto_site_rafael/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/projeto_site_rafael/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/projeto_site_rafael/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/static/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/static/imgs/coding.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/static/imgs/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/static/imgs/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/static/imgs/joelson.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/static/imgs/joelson2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/static/imgs/linkedin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_site_rafael/static/videos/aqpontochegamos.mkv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_website/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_website/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_website/templates/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_website/templates/education.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,16 +36,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/rafae/OneDrive/Documentos/GitHub/projeto_site_django/projeto_site_rafael/app_website/templates",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rafae/OneDrive/Documentos/GitHub/projeto_site_django/projeto_site_rafael/app_website/templates&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rafae\OneDrive\Documentos\GitHub\projeto_site_django\projeto_site_rafael\app_website\templates" />
