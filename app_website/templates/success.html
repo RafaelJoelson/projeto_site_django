@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Rafael Joelson</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{% url 'home' %}">HOME</a>
+            <a href="{% url 'about' %}">SOBRE</a>
+            <a href="{% url 'education' %}">FORMAÇÃO</a>
+            <a href="{% url 'portfolio' %}">PORTIFÓLIO</a>
+            <a href="{% url 'contact' %}">CONTATO</a>
+        </nav>
+        <div class="about-header-container">
+            <h1>Rafael Joelson</h1>
+            <h4>"May your roads lead to warm sands." - M'aiq the liar</h4>
+        </div>
+    </header>
+    <div class="aboutme-divisor">
+        <h2>Sucesso!</h2>
+    </div>
+    <div class="aboutme-container">
+        <div class="success-container">
+            <h1>Obrigado pelo seu contato!</h1>
+            <h3>Sua mensagem foi recebida com sucesso. Entrarei em contato em breve.</h3>
+            <p><a href="{% url 'home' %}">Voltar para a página inicial</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>Site desenvolvido por Rafael Joelson</p>
+    </footer>
+</body>
+</html>

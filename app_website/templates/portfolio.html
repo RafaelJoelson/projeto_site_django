@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Rafael Joelson</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{% url 'home' %}">HOME</a>
+            <a href="{% url 'about' %}">SOBRE</a>
+            <a href="{% url 'education' %}">FORMAÇÃO</a>
+            <a href="{% url 'portfolio' %}">PORTIFÓLIO</a>
+            <a href="{% url 'contact' %}">CONTATO</a>
+        </nav>
+        <div class="about-header-container">
+            <h1>Rafael Joelson</h1>
+            <h4>"Quando se realmente quer, consegue!" - Doctor Brown</h4>
+        </div>
+    </header>
+    <div class="aboutme-divisor">
+        <h2>Meus Projetos</h2>
+    </div>
+    <div class="aboutme-container">
+        <section class="about">
+            <article class="aboutme-text-container">
+                    <h2>Aq.chegamos</h2>
+                    <h3>Aq.Chegamos — Plataforma online de excursões - Projeto Integrador do IFSUDESTEMG.</h3>
+                    <p>O AQ.Chegamos é um projeto de aplicação web que tem como objetivo criar uma plataforma para que os usuários possam pesquisar e encontrar excursões de ônibus cadastradas por outros usuários. O projeto foi desenvolvido utilizando as linguagens de programação HTML/CSS, JavaScript e PHP. Projeto realizado para a conclusão do curso.</p>
+
+                    <h4>Público Alvo do Projeto</h4>
+                    <ul>
+                        <li>“Excurseiros” ou Organizadores de Excursões. Geralmente para os litorais capixaba e carioca.</li>
+                        <li>Alunos e professores que desejam organizar excursões educacionais ou visitas técnicas.</li>
+                        <li>“Sacoleiros”. Pequenos empreendedores que compram mercadorias dos fabricantes em São Paulo, Petrópolis. Assim como também torcidas organizadas.</li>
+                        <li>Romarias para Aparecida do Norte. Como também excursões cujo destino é nossa querida São João Del-Rei.</li>
+                    </ul>
+
+                    <h4>Gestor do Projeto e Desenvolvedor Full-Stack</h4>
+                    <p>Como Gestor e Desenvolvedor Full-stack no projeto "Aq.chegamos", liderei a equipe com habilidades estratégicas. Fui responsável pela gestão de recursos, coordenação de tarefas e tomada de decisões, assegurando o alinhamento do projeto com os objetivos estabelecidos pelos professores.</p>
+
+                    <p>No papel de Desenvolvedor Full-stack, participei ativamente na concepção, arquitetura e implementação de soluções tecnológicas. Contribuí para o desenvolvimento de funcionalidades front-end e back-end, utilizando o conhecimento obtido no curso. Minha dedicação ao código limpo e eficiente refletiu-se na entrega de um produto além das espectativas da banca avaliadora.</p>
+
+                    <p>Além disso, mantive uma comunicação transparente com a equipe, promovendo um ambiente colaborativo e produtivo. Meu compromisso com a excelência técnica e gestão eficaz foi fundamental para o sucesso do projeto "Aq.chegamos".</p>
+
+                    <p>Disponível no <a href="https://github.com/RafaelJoelson/aqpontochegamos.git">Github.</a></p>
+                </article>
+            <div class="about-vid-container">
+                <video width="640" height="400" src="{% static 'videos/aqpontochegamos.mkv' %}" controls></video>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>Site desenvolvido por Rafael Joelson</p>
+    </footer>
+</body>
+</html>

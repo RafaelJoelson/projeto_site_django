@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Rafael Joelson</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{% url 'home' %}">HOME</a>
+            <a href="{% url 'about' %}">SOBRE</a>
+            <a href="{% url 'education' %}">FORMAÇÃO</a>
+            <a href="{% url 'portfolio' %}">PORTIFÓLIO</a>
+            <a href="{% url 'contact' %}">CONTATO</a>
+        </nav>
+        <div class="about-header-container">
+            <h1>Rafael Joelson</h1>
+            <h4>"Não há saber mais ou saber menos: há saberes diferentes." - Paulo Freire</h4>
+        </div>
+    </header>
+    <div class="aboutme-divisor">
+        <h2>Formação</h2>
+    </div>
+    <div class="aboutme-container">
+        <section class="education">
+            <article class="aboutme-text-container">
+                <h3>2021 - 2023: Técnico em Informática</h3>
+                <h4>Instituto Federal de Educação, Ciência e Tecnologia do Sudeste de Minas Gerais, Campus São João Del-Rei</h4>
+                <p>Curso técnico em informática com ênfase em:</p>
+                <ul>
+                    <li>Algoritmos e Estrutura de Dados: C/C++</li>
+                    <li>Redes de Computadores</li>
+                    <li>Programação Web: HTML/CSS/JAVASCRIPT</li>
+                    <li>Informática Aplicada</li>
+                    <li>Eletrônica</li>
+                    <li>Sistemas Operacionais: Windows/Linux</li>
+                    <li>Montagem e Manutenção</li>
+                    <li>Engenharia de Software</li>
+                    <li>Projeto de Redes</li>
+                    <li>Segurança de Redes de Computadores</li>
+                    <li>Banco de Dados: SQL</li>
+                    <li>Programação Orientada a Objeto: JAVA</li>
+                    <li>Projeto Integrador</li>
+                    <li>Governança/Empreendedorismo Digital: COBIT 5.0</li>
+                </ul>
+                <h3>Cursando: Nano Courses EAD - FIAP ON</h3>
+                <h4>Faculdade de Informática e Administração Paulista</h4>
+                <p>Atualmente cursando nano courses em diversas áreas, incluindo:</p>
+                <ul>
+                    <li>Big Data & Analytics</li>
+                    <li>Blockchain Advanced</li>
+                    <li>Business Intelligence (BI)</li>
+                    <li>Cloud Fundamentals, Administration and Solution Architect</li>
+                    <li>Customer Experience Management</li>
+                    <li>Cybersecurity</li>
+                    <li>Design Gráfico</li>
+                    <li>Design Thinking</li>
+                    <li>DevOps & Agile Culture</li>
+                    <li>Gestão de Infraestrutura de TI</li>
+                    <li>Gestão Financeira de Empresas</li>
+                    <li>Inteligência Artificial e Computacional</li>
+                    <li>Leadership Communication</li>
+                    <li>Linux Fundamentos</li>
+                    <li>Marketing em Plataformas de Social Media</li>
+                    <li>Mobile Marketing</li>
+                    <li>Python</li>
+                    <li>Soluções Tecnológicas Emergentes</li>
+                    <li>User Experience</li>
+                </ul>
+            </article>
+            <div class="img-container">
+                <img src="{% static 'imgs/coding.png' %}" alt="Ilustração de um programador web">
+            </div>
+        </section>
+    </div>
+    <div class="aboutme-divisor">
+        <h2>Habilidades Autodidatas</h2>
+    </div>
+    <div class="aboutme-container">
+        <section class="self-taught-skills">
+            <article class="aboutme-text-container">
+                <h2>Habilidades Autodidatas</h2>
+
+                <h3>Idiomas</h3>
+                <ul>
+                    <li>Inglês: Técnico (Aprendizado autodidata)</li>
+                    <li>Espanhol: Básico (Aprendizado autodidata)</li>
+                </ul>
+                <p>Utilizo a plataforma Duolingo para aprimorar minhas habilidades em idiomas.</p>
+
+                <h3>Ferramentas de Design</h3>
+                <ul>
+                    <li>Adobe Photoshop: Básico (Aprendizado autodidata)</li>
+                </ul>
+                <p>Capacidade de criar artes, tile-sets e sprites para jogos.</p>
+
+                <h3>Desenvolvimento de Jogos</h3>
+                <ul>
+                    <li>Game Engine Unity: C#</li>
+                </ul>
+                <p>Experiência no desenvolvimento de jogos usando a Game Engine Unity e programação em C#.</p>
+            </article>
+        </section>
+    </div>
+    <footer>
+        <p>Site desenvolvido por Rafael Joelson</p>
+    </footer>
+</body>
+</html>

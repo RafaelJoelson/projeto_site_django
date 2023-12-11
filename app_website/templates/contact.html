@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Rafael Joelson</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{% url 'home' %}">HOME</a>
+            <a href="{% url 'about' %}">SOBRE</a>
+            <a href="{% url 'education' %}">FORMAÇÃO</a>
+            <a href="{% url 'portfolio' %}">PORTIFÓLIO</a>
+            <a href="{% url 'contact' %}">CONTATO</a>
+        </nav>
+        <div class="about-header-container">
+            <h1>Rafael Joelson</h1>
+            <h4>"Diante da vastidão do tempo e da imensidão do universo, é um imenso prazer para mim dividir um planeta e uma época com você." - Carl Sagan</h4>
+        </div>
+    </header>
+    <div class="aboutme-divisor">
+        <h2>Formulário de Contato</h2>
+    </div>
+    <div class="aboutme-container">
+        <section class="contact-form">
+            <form action="{% url 'contact' %}" method="post">
+                {% csrf_token %}
+                <label for="name">*Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">*Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">*Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <div class="buttons-container">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>Site desenvolvido por Rafael Joelson</p>
+    </footer>
+</body>
+</html>
