@@ -3,7 +3,7 @@
 Este é meu primeiro projeto desenvolvido em python e django.
 Também é o primeiro projeto que utilizei o github.
 Meu site pessoal com o meu portifólio.
-
+c
 ## Tecnologias Utilizadas
 
 - Python 3.11
